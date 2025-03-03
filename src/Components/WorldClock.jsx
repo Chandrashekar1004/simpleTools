@@ -2,7 +2,7 @@
 import { DateTime } from "luxon";
 import React, { useEffect, useState } from "react";
 import "./WorldClock.css";
-import India from "./assets/Flags/India.png";
+import India from "./assets/Flags/India.PNG";
 import England from "./assets/Flags/England.webp";
 import USA from "./assets/Flags/USA.png";
 import Canada from "./assets/Flags/Canada.jpeg";
