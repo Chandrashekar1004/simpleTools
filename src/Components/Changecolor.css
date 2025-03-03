@@ -1,0 +1,8 @@
+.colorsetting{
+    display: flex;
+    position: absolute;
+    left: 330px;
+    top: 250px;
+    font-size: 2em;
+    flex-direction: column;
+}

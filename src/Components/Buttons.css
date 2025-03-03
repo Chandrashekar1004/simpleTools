@@ -1,0 +1,74 @@
+.Counter {
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: violet; */
+    /* border: 5px solid blue; */
+    display: flex;
+    position: relative;
+    left: 50px;
+    flex-direction: column; /* Stack the count and buttons vertically */
+    align-items: center;    /* Center items horizontally */
+  }
+  .count{
+    font-size: 4em;
+    /* background-color: cadetblue; */
+    /* border: 5px solid white; */
+    text-align:justify;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 90px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+  .label {
+    color: blue;
+  }
+  
+  .countValue {
+    color: black; 
+    
+  }
+  
+  .button{
+    display: flex;        
+    justify-content: center;
+    background-color: black; 
+
+  }
+  
+  .Increment, .Decrement, .Reset {
+    color: white;
+    font-size: 2em;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border:2px solid yellow;
+
+
+  }
+  
+  .Increment {
+    background-color: green;
+    
+  }
+  
+  .Decrement {
+    background-color: Red;
+  }
+  
+  .Reset {
+    background-color: blue;
+  }
+  
+  .Increment:hover {
+    background-color: darkgreen;
+  }
+  
+  .Decrement:hover {
+    background-color: darkred;
+  }
+  
+  .Reset:hover {
+    background-color: darkblue;
+  }
+  

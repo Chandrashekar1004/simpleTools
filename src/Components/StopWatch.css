@@ -1,0 +1,36 @@
+.fullwatch{
+    /* background-color: black; */
+    align-items: center;
+    height: 240px;
+    width: 350px;
+}
+
+.stopwatch{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    align-items: center;
+    position:relative;
+    bottom: 0px;
+}
+
+.button1{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    border-radius:10px ;
+    border-style:groove;
+    margin-left: 10px;
+    /* border-color: red; */
+    align-items: center;
+    padding: 40px;
+    font-style: italic;
+}
+
+.display{
+    padding: 10px;
+    font-size: 4em ;
+    
+    font-family:cursive;
+    bottom: 275px;
+}

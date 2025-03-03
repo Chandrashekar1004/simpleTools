@@ -1,0 +1,44 @@
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+    height: 100px;
+    color: rgb(247, 177, 0);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the title */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  .title {
+    font-size: 3em;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Ensures perfect centering */
+  }
+  
+  .LOGO {
+    position: absolute;
+    right: 40px; /* Pushes the logo to the rightmost corner */
+    width: 150px;
+    height: 120px;
+  }
+
+  .creator {
+    cursor: pointer;
+    position: absolute;
+    left: 20px;  /* Moves the creator text to the leftmost part of the bar */
+    font-size: 25px;
+    color: rgb(255, 153, 0);
+  }
+
+  .creator :hover{
+    color: orangered;
+  }
+  

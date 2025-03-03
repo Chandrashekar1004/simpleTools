@@ -1,0 +1,22 @@
+/* .clocks{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 400px;
+    font-size: 2em;
+    top: 200px;
+} */
+.clocks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+    width: 100%; 
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+  }
+
+  .Flags{
+    height: 100px;
+    width: 100px;
+  }
