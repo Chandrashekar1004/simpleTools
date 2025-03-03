@@ -11,6 +11,7 @@ Currently, two official plugins are available:
 A collection of simple tools including a counter, stopwatch, timer, world clock, and font color customization.
 
 Features:
+
 1.Counter
 
 2.Stopwatch
