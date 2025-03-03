@@ -5,12 +5,12 @@ import "./WorldClock.css";
 
 function WorldClock() {
   const timezones = [
-    { id: 1, name: "India", zone: "Asia/Kolkata" ,url:`./src/assets/Flags/India.png`},
-    { id: 2, name: "England", zone: "Europe/London",url:"./src/assets/Flags/England.webp" },
-    { id: 3, name: "USA", zone: "America/New_York",url:"./src/assets/Flags/USA.png" },
-    { id: 4, name: "Canada", zone: "America/Toronto",url:"./src/assets/Flags/Canada.jpeg" },
+    { id: 1, name: "India", zone: "Asia/Kolkata" ,url:`src/assets/Flags/India.png`},
+    { id: 2, name: "England", zone: "Europe/London",url:"src/assets/Flags/England.webp" },
+    { id: 3, name: "USA", zone: "America/New_York",url:"src/assets/Flags/USA.png" },
+    { id: 4, name: "Canada", zone: "America/Toronto",url:"src/assets/Flags/Canada.jpeg" },
     { id: 5, name: "Australia", zone: "src/assets/Flags/Australia.png" },
-    { id: 6, name: "Russia", zone: "Europe/Moscow", url:"./src/assets/Flags/Russia.png"},
+    { id: 6, name: "Russia", zone: "Europe/Moscow", url:"src/assets/Flags/Russia.png"},
   ];
 
   const getCurrentTimes = () => {
