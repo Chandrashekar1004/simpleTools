@@ -7,3 +7,16 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # simpleTools_
+
+A collection of simple tools including a counter, stopwatch, timer, world clock, and font color customization.
+
+Features:
+Counter
+Stopwatch
+Timer
+World Clock
+Font Color Customization
+How to Use:
+Clone the repository.
+Open index.html in your browser.
+Enjoy using the tools!
