@@ -2,7 +2,7 @@ import "./Header.css"
 
 function Header() {
 
-  const url="./src/assets/inc_dec.JPG"
+  const url="./src/assets/tools.JPG"
   const profile="https://github.com/Chandrashekar1004"
 
   return (
