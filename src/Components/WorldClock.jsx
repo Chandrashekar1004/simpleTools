@@ -2,16 +2,21 @@
 import { DateTime } from "luxon";
 import React, { useEffect, useState } from "react";
 import "./WorldClock.css";
-
+import India from "./assets/Flags/India.png";
+import England from "./assets/Flags/England.webp";
+import USA from "./assets/Flags/USA.png";
+import Canada from "./assets/Flags/Canada.jpeg";
+import Australia from "./assets/Flags/Australia.png";
+import Russia from "./assets/Flags/Russia.png";
 function WorldClock() {
-  const timezones = [
-    { id: 1, name: "India", zone: "Asia/Kolkata" ,url:`/src/assets/Flags/India.png`},
-    { id: 2, name: "England", zone: "Europe/London",url:"/src/assets/Flags/England.webp" },
-    { id: 3, name: "USA", zone: "America/New_York",url:"/src/assets/Flags/USA.png" },
-    { id: 4, name: "Canada", zone: "America/Toronto",url:"/src/assets/Flags/Canada.jpeg" },
-    { id: 5, name: "Australia", zone: "/src/assets/Flags/Australia.png" },
-    { id: 6, name: "Russia", zone: "Europe/Moscow", url:"/src/assets/Flags/Russia.png"},
-  ];
+const timezones = [
+  { id: 1, name: "India", zone: "Asia/Kolkata", url: India },
+  { id: 2, name: "England", zone: "Europe/London", url: England },
+  { id: 3, name: "USA", zone: "America/New_York", url: USA },
+  { id: 4, name: "Canada", zone: "America/Toronto", url: Canada },
+  { id: 5, name: "Australia", zone: "Australia/Sydney", url: Australia },
+  { id: 6, name: "Russia", zone: "Europe/Moscow", url: Russia },
+];
 
   const getCurrentTimes = () => {
     return timezones.map((tz) => ({
