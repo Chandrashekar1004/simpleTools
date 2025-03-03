@@ -10,13 +10,20 @@ Currently, two official plugins are available:
 
 A collection of simple tools including a counter, stopwatch, timer, world clock, and font color customization.
 
-Features:
-Counter
-Stopwatch
-Timer
-World Clock
-Font Color Customization
+**Features:
+1.Counter
+
+2.Stopwatch
+
+3.Timer
+
+4.World Clock
+
+5.Font Color Customization
+
+
 How to Use:
 Clone the repository.
 Open index.html in your browser.
 Enjoy using the tools!
+**
